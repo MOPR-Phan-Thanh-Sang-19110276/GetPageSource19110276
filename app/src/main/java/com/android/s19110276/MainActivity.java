@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
             } else if (ex.getMessage().contains("Unable to resolve host")) {
                 return "No address associated with hostname.\nPlease try another URL again!";
             }
-            return "Something error was occurred!";
+            return "Some error occurred!";
         }
     }
 }
